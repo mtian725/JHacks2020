@@ -14,7 +14,7 @@ function search() {
 						match = myJson[i].course_id.match(classRegExp);
 						link = linkBase + match[1] + "/" + match[2];
 
-						str += "<li><a class=\"#\" href=link role=\"button\">"
+						str += "<li><a href=link role=\"button\" onclick=\"alert(\"clicked\");\">"
 								+ myJson[i].course_id + "</a></li>";
 					}
 					ul.innerHTML = str;
