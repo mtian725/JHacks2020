@@ -62,7 +62,7 @@ options("/*",
 		});
 		get("classes/AMSC/420", (req, res) -> {
 			res.type("application/json");
-    return "[{\"Quizzes\": [{\"quiz_name\": \"Quiz1\",\"documentname\": \"Quiz1AMSC420\", \"link\": \"href= www.cs.umd.edu/~meesh/cmsc420/ContentBook/SampleBook/sam1/sa\"}, {\"quiz_name\": \"Quiz2\",\"documentname\": \"Quiz2AMSC420\", \"link\": \"href= www.cs.umd.edu/~meesh/cmsc420/ContentBook/SampleBook/sam1/sam1.pdf\"}]}, {\"Exams\": [{\"quiz_name\": \"exam 1\",\"documentname\": \"Exam1AMSC420\", \"link\": \"href= www.cs.umd.edu/~meesh/cmsc420/ContentBook/SampleBook/sam1/sa\"}, {\"quiz_name\": \"Exam 2\",\"documentname\": \"Exam2AMSC420\", \"link\": \"href= www.cs.umd.edu/~meesh/cmsc420/ContentBook/SampleBook/sam1/sam1.pdf\"} , {\"quiz_name\": \"Past Finals\",\"documentname\": \"PastFinalsAMSC420\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfm41U255LWRMTWsyZnRueF9YZ2NOTGJEZmtxSDNyRWRLeDVJN0JMWEprZUU\"}]}]";			
+    return "[{\"Quizzes\": [{\"quiz_name\": \"Quiz1\",\"documentname\": \"Quiz1AMSC420\", \"link\": \"href= https://www.cs.umd.edu/~meesh/cmsc420/ContentBook/SampleBook/sam1/sa\"}, {\"quiz_name\": \"Quiz2\",\"documentname\": \"Quiz2AMSC420\", \"link\": \"href= https://www.cs.umd.edu/~meesh/cmsc420/ContentBook/SampleBook/sam1/sam1.pdf\"}]}, {\"Exams\": [{\"quiz_name\": \"exam 1\",\"documentname\": \"Exam1AMSC420\", \"link\": \"href= https://www.cs.umd.edu/~meesh/cmsc420/ContentBook/SampleBook/sam1/sa\"}, {\"quiz_name\": \"Exam 2\",\"documentname\": \"Exam2AMSC420\", \"link\": \"href= https://www.cs.umd.edu/~meesh/cmsc420/ContentBook/SampleBook/sam1/sam1.pdf\"} , {\"quiz_name\": \"Past Finals\",\"documentname\": \"PastFinalsAMSC420\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfm41U255LWRMTWsyZnRueF9YZ2NOTGJEZmtxSDNyRWRLeDVJN0JMWEprZUU\"}]}]";			
     });
 		get("classes/AMSC/460", (req, res) -> {
 			res.type("application/json");
@@ -98,7 +98,7 @@ options("/*",
 		});
 		get("classes/AMSC/674", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsAMSC674\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfk5JWC01eGdGX25acVNKQ0xsa1VvTk5fOWxSeEdwemx2aFhoNVRoUE9qVVE\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"Past Finals\",\"documentname\": \"PastFinalsAMSC674\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfk5JWC01eGdGX25acVNKQ0xsa1VvTk5fOWxSeEdwemx2aFhoNVRoUE9qVVE\"}]}]";
 		});
     
     /*************************************************
@@ -111,163 +111,163 @@ options("/*",
 		});
 		get("classes/CMSC/106", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
 		get("classes/CMSC/122", (req, res) -> {
 			res.type("application/json");
-    return "[{\"Quizzes\": [{\"quiz_name\": \"Quiz1\",\"documentname\": \"Quiz1CMSC122\", \"link\": \"href= http://www.cs.umd.edu/class/fall2019/cmsc122-0201/quizzes/Worksheet1.pdf\"}, {\"quiz_name\": \"Quiz2\",\"documentname\": \"Quiz2CMSC122\", \"link\": \"href= http://www.cs.umd.edu/class/fall2019/cmsc122-0201/quizzes/Worksheet2.pdf\"}, {\"quiz_name\": \"Quiz3\",\"documentname\": \"Quiz3CMSC122\", \"link\": \"href= http://www.cs.umd.edu/class/fall2019/cmsc122-0201/quizzes/Worksheet3.pdf\"}]} , {\"Exams\": [{\"quiz_name\": \"Exam 1\",\"documentname\": \"Exam1CMSC122\", \"link\": \"href= http://www.cs.umd.edu/class/fall2019/cmsc122-0201/exams/exam1/\"}, {\"quiz_name\": \"Exam 2\",\"documentname\": \"Exam2CMSC122\", \"link\": \"href= http://www.cs.umd.edu/class/fall2019/cmsc122-0201/exams/exam2/\"} , {\"quiz_name\": \"Final Exam\",\"documentname\": \"FinalExamCMSC122\", \"link\": \"href= www.cs.umd.edu/class/summer2019/cmsc216/exams/final/\"}]}]";			
+    return "[{\"Quizzes\": [{\"quiz_name\": \"Quiz1\",\"documentname\": \"Quiz1CMSC122\", \"link\": \"href= https://http://www.cs.umd.edu/class/fall2019/cmsc122-0201/quizzes/Worksheet1.pdf\"}, {\"quiz_name\": \"Quiz2\",\"documentname\": \"Quiz2CMSC122\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc122-0201/quizzes/Worksheet2.pdf\"}, {\"quiz_name\": \"Quiz3\",\"documentname\": \"Quiz3CMSC122\", \"link\": \"href= https://http://www.cs.umd.edu/class/fall2019/cmsc122-0201/quizzes/Worksheet3.pdf\"}]} , {\"Exams\": [{\"quiz_name\": \"Exam 1\",\"documentname\": \"Exam1CMSC122\", \"link\": \"href= https://http://www.cs.umd.edu/class/fall2019/cmsc122-0201/exams/exam1/\"}, {\"quiz_name\": \"Exam 2\",\"documentname\": \"Exam2CMSC122\", \"link\": \"href= https://http://www.cs.umd.edu/class/fall2019/cmsc122-0201/exams/exam2/\"} , {\"quiz_name\": \"Final Exam\",\"documentname\": \"FinalExamCMSC122\", \"link\": \"href= https://www.cs.umd.edu/class/summer2019/cmsc216/exams/final/\"}]}]";			
 		});
 		get("classes/CMSC/131", (req, res) -> {
 			res.type("application/json");
-    return "[{\"Quizzes\": [{\"quiz_name\": \"Quiz1\",\"documentname\": \"Quiz1CMSC131\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc131-030X/quizzes/Worksheet1.pdf\"}, {\"quiz_name\": \"Quiz2\",\"documentname\": \"Quiz2CMSC131\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc131-030X/quizzes/Worksheet2.pdf\"}, {\"quiz_name\": \"Quiz3\",\"documentname\": \"Quiz3CMSC131\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc131-030X/quizzes/Worksheet3.pdf\"} , {\"quiz_name\": \"Quiz4\",\"documentname\": \"Quiz4CMSC131\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc131-030X/quizzes/Worksheet4.pdf\"}]}, {\"Exams\": [{\"quiz_name\": \"Exam 1\",\"documentname\": \"Exam1CMSC131\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc131-030X/exams/exam1/\"}, {\"quiz_name\": \"Exam 2\",\"documentname\": \"Exam2CMSC131\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc131-030X/exams/exam2/\"} , {\"quiz_name\": \"Exam 3\",\"documentname\": \"Exam3CMSC131\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc131-030X/exams/exam3/\"} , {\"quiz_name\": \"Final Exam\",\"documentname\": \"FinalExamCMSC131\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc131-030X/exams/final/\"}]}]";			
+    return "[{\"Quizzes\": [{\"quiz_name\": \"Quiz1\",\"documentname\": \"Quiz1CMSC131\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc131-030X/quizzes/Worksheet1.pdf\"}, {\"quiz_name\": \"Quiz2\",\"documentname\": \"Quiz2CMSC131\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc131-030X/quizzes/Worksheet2.pdf\"}, {\"quiz_name\": \"Quiz3\",\"documentname\": \"Quiz3CMSC131\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc131-030X/quizzes/Worksheet3.pdf\"} , {\"quiz_name\": \"Quiz4\",\"documentname\": \"Quiz4CMSC131\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc131-030X/quizzes/Worksheet4.pdf\"}]}, {\"Exams\": [{\"quiz_name\": \"Exam 1\",\"documentname\": \"Exam1CMSC131\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc131-030X/exams/exam1/\"}, {\"quiz_name\": \"Exam 2\",\"documentname\": \"Exam2CMSC131\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc131-030X/exams/exam2/\"} , {\"quiz_name\": \"Exam 3\",\"documentname\": \"Exam3CMSC131\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc131-030X/exams/exam3/\"} , {\"quiz_name\": \"Final Exam\",\"documentname\": \"FinalExamCMSC131\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc131-030X/exams/final/\"}]}]";			
 		});
 		get("classes/CMSC/132", (req, res) -> {
 			res.type("application/json");
-    return "[{\"Quizzes\": [{\"quiz_name\": \"Quiz1\",\"documentname\": \"Quiz1CMSC132\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc132/quizzes/Worksheet1.pdf\"}, {\"quiz_name\": \"Quiz2\",\"documentname\": \"Quiz2CMSC132\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc132/quizzes/DebuggingQuiz.pdf\"}, {\"quiz_name\": \"Quiz3\",\"documentname\": \"Quiz3CMSC132\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc132/quizzes/Worksheet3.pdf\"} , {\"quiz_name\": \"Quiz4\",\"documentname\": \"Quiz4CMSC132\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc132/quizzes/Worksheet4.pdf\"}, {\"quiz_name\": \"Quiz5\",\"documentname\": \"Quiz5CMSC132\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc132/quizzes/Worksheet5.pdf\"}]}, {\"Exams\": [{\"quiz_name\": \"Exam 1\",\"documentname\": \"Exam1CMSC132\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc132/exams/exam1/\"}, {\"quiz_name\": \"Exam 2\",\"documentname\": \"Exam2CMSC132\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc132/exams/exam2/\"} , {\"quiz_name\": \"Exam 3\",\"documentname\": \"Exam3CMSC132\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc132/exams/exam3/\"} , {\"quiz_name\": \"Final Exam\",\"documentname\": \"FinalExamCMSC132\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc132/exams/final/\"}]}]";			
+    return "[{\"Quizzes\": [{\"quiz_name\": \"Quiz1\",\"documentname\": \"Quiz1CMSC132\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc132/quizzes/Worksheet1.pdf\"}, {\"quiz_name\": \"Quiz2\",\"documentname\": \"Quiz2CMSC132\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc132/quizzes/DebuggingQuiz.pdf\"}, {\"quiz_name\": \"Quiz3\",\"documentname\": \"Quiz3CMSC132\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc132/quizzes/Worksheet3.pdf\"} , {\"quiz_name\": \"Quiz4\",\"documentname\": \"Quiz4CMSC132\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc132/quizzes/Worksheet4.pdf\"}, {\"quiz_name\": \"Quiz5\",\"documentname\": \"Quiz5CMSC132\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc132/quizzes/Worksheet5.pdf\"}]}, {\"Exams\": [{\"quiz_name\": \"Exam 1\",\"documentname\": \"Exam1CMSC132\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc132/exams/exam1/\"}, {\"quiz_name\": \"Exam 2\",\"documentname\": \"Exam2CMSC132\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc132/exams/exam2/\"} , {\"quiz_name\": \"Exam 3\",\"documentname\": \"Exam3CMSC132\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc132/exams/exam3/\"} , {\"quiz_name\": \"Final Exam\",\"documentname\": \"FinalExamCMSC132\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc132/exams/final/\"}]}]";			
 		});
 		get("classes/CMSC/133", (req, res) -> {
 			res.type("application/json");
-    return "[{\"Quizzes\": [{\"quiz_name\": \"Quiz1\",\"documentname\": \"Quiz1CMSC133\", \"link\": \"href= www.cs.umd.edu/class/spring2020/cmsc133/quizzes/Worksheet1.pdf\"}]}]";			
+    return "[{\"Quizzes\": [{\"quiz_name\": \"Quiz1\",\"documentname\": \"Quiz1CMSC133\", \"link\": \"href= https://www.cs.umd.edu/class/spring2020/cmsc133/quizzes/Worksheet1.pdf\"}]}]";			
 		});
 		get("classes/CMSC/216", (req, res) -> {
 			res.type("application/json"); 
-    return "[{\"Quizzes\": [{\"quiz_name\": \"Quiz1\",\"documentname\": \"Quiz1CMSC216\", \"link\": \"href= www.cs.umd.edu/class/summer2019/cmsc216/quizzes/Worksheet1.pdf\"}, {\"quiz_name\": \"Quiz2\",\"documentname\": \"Quiz2CMSC216\", \"link\": \"href= www.cs.umd.edu/class/summer2019/cmsc216/quizzes/Worksheet2.pdf\"}, {\"quiz_name\": \"Quiz3\",\"documentname\": \"Quiz3CMSC216\", \"link\": \"href= www.cs.umd.edu/class/summer2019/cmsc216/quizzes/debuggingQuiz.pdf\"} , {\"quiz_name\": \"Quiz4\",\"documentname\": \"Quiz4CMSC216\", \"link\": \"href= www.cs.umd.edu/class/summer2019/cmsc216/quizzes/Worksheet4.pdf\"}, {\"quiz_name\": \"Quiz5\",\"documentname\": \"Quiz5CMSC216\", \"link\": \"href= www.cs.umd.edu/class/summer2019/cmsc216/quizzes/Worksheet5.pdf\"}]},{\"Exams\": [{\"quiz_name\": \"Exam 1\",\"documentname\": \"Exam1CMSC216\", \"link\": \"href= www.cs.umd.edu/class/summer2019/cmsc216/exams/exam1/\"}, {\"quiz_name\": \"Exam 2\",\"documentname\": \"Exam2CMSC216\", \"link\": \"href= www.cs.umd.edu/class/summer2019/cmsc216/exams/exam2/\"} , {\"quiz_name\": \"Final Exam\",\"documentname\": \"FinalExamCMSC216\", \"link\": \"href= www.cs.umd.edu/class/summer2019/cmsc216/exams/final/\"}]}]";			
+    return "[{\"Quizzes\": [{\"quiz_name\": \"Quiz1\",\"documentname\": \"Quiz1CMSC216\", \"link\": \"href= https://www.cs.umd.edu/class/summer2019/cmsc216/quizzes/Worksheet1.pdf\"}, {\"quiz_name\": \"Quiz2\",\"documentname\": \"Quiz2CMSC216\", \"link\": \"href= https://www.cs.umd.edu/class/summer2019/cmsc216/quizzes/Worksheet2.pdf\"}, {\"quiz_name\": \"Quiz3\",\"documentname\": \"Quiz3CMSC216\", \"link\": \"href= https://www.cs.umd.edu/class/summer2019/cmsc216/quizzes/debuggingQuiz.pdf\"} , {\"quiz_name\": \"Quiz4\",\"documentname\": \"Quiz4CMSC216\", \"link\": \"href= https://www.cs.umd.edu/class/summer2019/cmsc216/quizzes/Worksheet4.pdf\"}, {\"quiz_name\": \"Quiz5\",\"documentname\": \"Quiz5CMSC216\", \"link\": \"href= https://www.cs.umd.edu/class/summer2019/cmsc216/quizzes/Worksheet5.pdf\"}]},{\"Exams\": [{\"quiz_name\": \"Exam 1\",\"documentname\": \"Exam1CMSC216\", \"link\": \"href= https://www.cs.umd.edu/class/summer2019/cmsc216/exams/exam1/\"}, {\"quiz_name\": \"Exam 2\",\"documentname\": \"Exam2CMSC216\", \"link\": \"href= https://www.cs.umd.edu/class/summer2019/cmsc216/exams/exam2/\"} , {\"quiz_name\": \"Final Exam\",\"documentname\": \"FinalExamCMSC216\", \"link\": \"href= https://www.cs.umd.edu/class/summer2019/cmsc216/exams/final/\"}]}]";			
 		});
 		get("classes/CMSC/250", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Reference Material\": [{\"quiz_name\": \"Reference1\",\"documentname\": \"ReferenceMaterialCMSC250\", \"link\": \"href=umd.instructure.com/courses/1246968/files/folder/ReferenceMaterial\"}, {\"quiz_name\": \"Reference2\",\"documentname\": \"SelfStudyCMSC250\", \"link\": \"href= umd.instructure.com/courses/1246968/files/folder/SelfStudyHandouts\"}, {\"quiz_name\": \"PastHomeworks\",\"documentname\": \"PastHomeworksCMSC250\", \"link\": \"href= umd.instructure.com/courses/1246968/files/folder/HomeworkAssignments\"} , {\"quiz_name\": \"LectureScans\",\"documentname\": \"LectureScansCMSC250\", \"link\": \"href= umd.instructure.com/courses/1246968/files/folder/Eastman040xLectureScans\"}, {\"quiz_name\": \"DailyLecture\",\"documentname\": \"DailyLectureCMSC250\", \"link\": \"href= umd.instructure.com/courses/1246968/files/folder/Eastman040xLectures\"}]}, {\"Exams\": [{\"quiz_name\": \"Exam 1 Final\",\"documentname\": \"Exam1FinalCMSC250\", \"link\": \"href=www.cs.umd.edu/class/summer2017/cmsc250/exams.html/\"}, {\"quiz_name\": \"Exam 1\",\"documentname\": \"Exam1CMSC250\", \"link\": \"href= umd.instructure.com/courses/1246968/files/folder/Exams/Midterm1/\"} , {\"quiz_name\": \"Exam 2\",\"documentname\": \"Exam2CMSC250\", \"link\": \"href= umd.instructure.com/courses/1246968/files/folder/Exams/Midterm2\"} , {\"quiz_name\": \"Final Exam\",\"documentname\": \"FinalExamCMSC250\", \"link\": \"href= umd.instructure.com/courses/1246968/files/folder/Exams/FinalPrep/\"}]}]";		
+      return "[{\"Reference Material\": [{\"quiz_name\": \"Reference1\",\"documentname\": \"ReferenceMaterialCMSC250\", \"link\": \"href= https://umd.instructure.com/courses/1246968/files/folder/ReferenceMaterial\"}, {\"quiz_name\": \"Reference2\",\"documentname\": \"SelfStudyCMSC250\", \"link\": \"href= https://umd.instructure.com/courses/1246968/files/folder/SelfStudyHandouts\"}, {\"quiz_name\": \"PastHomeworks\",\"documentname\": \"PastHomeworksCMSC250\", \"link\": \"href= https://umd.instructure.com/courses/1246968/files/folder/HomeworkAssignments\"} , {\"quiz_name\": \"LectureScans\",\"documentname\": \"LectureScansCMSC250\", \"link\": \"href= https://umd.instructure.com/courses/1246968/files/folder/Eastman040xLectureScans\"}, {\"quiz_name\": \"DailyLecture\",\"documentname\": \"DailyLectureCMSC250\", \"link\": \"href= https://umd.instructure.com/courses/1246968/files/folder/Eastman040xLectures\"}]}, {\"Exams\": [{\"quiz_name\": \"Exam 1 Final\",\"documentname\": \"Exam1FinalCMSC250\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc250/exams.html/\"}, {\"quiz_name\": \"Exam 1\",\"documentname\": \"Exam1CMSC250\", \"link\": \"href= https://umd.instructure.com/courses/1246968/files/folder/Exams/Midterm1/\"} , {\"quiz_name\": \"Exam 2\",\"documentname\": \"Exam2CMSC250\", \"link\": \"href= https://umd.instructure.com/courses/1246968/files/folder/Exams/Midterm2\"} , {\"quiz_name\": \"Final Exam\",\"documentname\": \"FinalExamCMSC250\", \"link\": \"href= https://umd.instructure.com/courses/1246968/files/folder/Exams/FinalPrep/\"}]}]";		
      });
 
 		get("classes/CMSC/289A", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
     
 		get("classes/CMSC/320", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Assignments\": [{\"quiz_name\": \"Assignments\",\"documentname\": \"AssignmentsCMSC320\", \"link\": \"href= cmsc320.github.io/#assignments\"}]}, {\"Resources\": [{\"other_resources\": \"Resources\",\"documentname\": \"ResourcesCMSC132\", \"link\": \"href= www.hcbravo.org/IntroDataSci/resources/\"}]}]";			
+      return "[{\"Assignments\": [{\"quiz_name\": \"Assignments\",\"documentname\": \"AssignmentsCMSC320\", \"link\": \"href= https://cmsc320.github.io/#assignments\"}]}, {\"Resources\": [{\"other_resources\": \"Resources\",\"documentname\": \"ResourcesCMSC132\", \"link\": \"href= https://www.hcbravo.org/IntroDataSci/resources/\"}]}]";			
     });
     
 		get("classes/CMSC/330", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+      return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
     });
     
 		get("classes/CMSC/351", (req, res) -> {
 			res.type("application/json");
-    return "[{\"Assignments\": [{\"quiz_name\": \"Homeworks\",\"documentname\": \"HomeworksCMSC351\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc351-0101/\"}]} , {\"Reference Material\": [{\"quiz_name\": \"Textbooks\",\"documentname\": \"TextbooksCMSC351\", \"link\": \"href= ianparberry.com/books/free/poa.pdf\"}]}, {\"Exams\": [{\"quiz_name\": \"Exam 1\",\"documentname\": \"Exam1CMSC351\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc351-0101/files/mid1-prac.pdf\"}, {\"quiz_name\": \"Exam 2\",\"documentname\": \"Exam2CMSC351\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc351-0101/files/prac-midtermII.pdf\"} , {\"quiz_name\": \"Final Exam\",\"documentname\": \"FinalExamCMSC351\", \"link\": \"href= www.cs.umd.edu/class/fall2019/cmsc351-0101/files/prac-final.pdf\"}]}]";			
+    return "[{\"Assignments\": [{\"quiz_name\": \"Homeworks\",\"documentname\": \"HomeworksCMSC351\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc351-0101/\"}]} , {\"Reference Material\": [{\"quiz_name\": \"Textbooks\",\"documentname\": \"TextbooksCMSC351\", \"link\": \"href= https://ianparberry.com/books/free/poa.pdf\"}]}, {\"Exams\": [{\"quiz_name\": \"Exam 1\",\"documentname\": \"Exam1CMSC351\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc351-0101/files/mid1-prac.pdf\"}, {\"quiz_name\": \"Exam 2\",\"documentname\": \"Exam2CMSC351\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc351-0101/files/prac-midtermII.pdf\"} , {\"quiz_name\": \"Final Exam\",\"documentname\": \"FinalExamCMSC351\", \"link\": \"href= https://www.cs.umd.edu/class/fall2019/cmsc351-0101/files/prac-final.pdf\"}]}]";			
 		});
     
 		get("classes/CMSC/388J", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     
 		get("classes/CMSC/411", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
     
 		get("classes/CMSC/412", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     
 		get("classes/CMSC/414", (req, res) -> {
 			res.type("application/json");
-		return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+		return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     
 		get("classes/CMSC/417", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     
 		get("classes/CMSC/420", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
     
 		get("classes/CMSC/421", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     
 		get("classes/CMSC/422", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
 		get("classes/CMSC/423", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
 		get("classes/CMSC/424", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   		});
     		get("classes/CMSC/425", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     		get("classes/CMSC/426", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     		get("classes/CMSC/430", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
     		get("classes/CMSC/433", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     		get("classes/CMSC/434", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     		get("classes/CMSC/435", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     		get("classes/CMSC/436", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     		get("classes/CMSC/451", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
     		get("classes/CMSC/452", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     		get("classes/CMSC/454", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     		get("classes/CMSC/456", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
     		get("classes/CMSC/457", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     		get("classes/CMSC/460", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
     		get("classes/CMSC/466", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     		get("classes/CMSC/470", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     		get("classes/CMSC/475", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     
     /*************************************************
@@ -279,195 +279,195 @@ options("/*",
 		});
         get("classes/MATH/015", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Exams\": [{\"quiz_name\": \"Exam 1 \",\"documentname\": \"Quiz1MATH015\", \"link\": \"href=drive.google.com/drive/folders/0B6UIgUVIxqt8QXMwRS0zUTJWa28\"}, {\"quiz_name\": \"Exam 2\",\"documentname\": \"Exam2MATH015\", \"link\": \"href= drive.google.com/drive/folders/0B6UIgUVIxqt8QXMwRS0zUTJWa28\"},{\"quiz_name\": \"Exam 3\",\"documentname\": \"Exam3MATH015\", \"link\": \"href= drive.google.com/drive/folders/0B6UIgUVIxqt8QXMwRS0zUTJWa28\"} ]}]";			
+			return "[{\"Exams\": [{\"quiz_name\": \"Exam 1 \",\"documentname\": \"Quiz1MATH015\", \"link\": \"href= https://drive.google.com/drive/folders/0B6UIgUVIxqt8QXMwRS0zUTJWa28\"}, {\"quiz_name\": \"Exam 2\",\"documentname\": \"Exam2MATH015\", \"link\": \"href= https://drive.google.com/drive/folders/0B6UIgUVIxqt8QXMwRS0zUTJWa28\"},{\"quiz_name\": \"Exam 3\",\"documentname\": \"Exam3MATH015\", \"link\": \"href= https://drive.google.com/drive/folders/0B6UIgUVIxqt8QXMwRS0zUTJWa28\"} ]}]";			
     });
         get("classes/MATH/107", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH107\", \"link\": \"href= drive.google.com/drive/folders/0B6UIgUVIxqt8dWlaZEdOcVJRWkE\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH107\", \"link\": \"href= https://drive.google.com/drive/folders/0B6UIgUVIxqt8dWlaZEdOcVJRWkE\"}]}]";
 		});
         get("classes/MATH/113", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH113\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfl91OUY2dE1OTHJEdW9sTkhmX0dNWFFJVVRhalB4N2pqT3hkTml2MFpmdDQ\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH113\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfl91OUY2dE1OTHJEdW9sTkhmX0dNWFFJVVRhalB4N2pqT3hkTml2MFpmdDQ\"}]}]";
 		});
         get("classes/MATH/115", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH115\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfnY5ck5SVkRFM1AweFdaS1poYzBiVDRTbTc2QVJvSEZNYVUwdXBwanhLT3c\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH115\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfnY5ck5SVkRFM1AweFdaS1poYzBiVDRTbTc2QVJvSEZNYVUwdXBwanhLT3c\"}]}]";
 		});
     get("classes/MATH/120", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH120\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfnY5ck5SVkRFM1AweFdaS1poYzBiVDRTbTc2QVJvSEZNYVUwdXBwanhLT3c\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH120\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfnY5ck5SVkRFM1AweFdaS1poYzBiVDRTbTc2QVJvSEZNYVUwdXBwanhLT3c\"}]}]";
 		});
     get("classes/MATH/121", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH121\", \"link\": \"href= drive.google.com/drive/folders/0B6UIgUVIxqt8TTFhRG9PNlRhVzg\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH121\", \"link\": \"href= https://drive.google.com/drive/folders/0B6UIgUVIxqt8TTFhRG9PNlRhVzg\"}]}]";
 		});
     get("classes/MATH/135", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH135\", \"link\": \"href= drive.google.com/drive/folders/11RLtLd6MTldIp7G2CVBEG73EUy2HqKiY\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH135\", \"link\": \"href= https://drive.google.com/drive/folders/11RLtLd6MTldIp7G2CVBEG73EUy2HqKiY\"}]}]";
 		});
     get("classes/MATH/136", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH136\", \"link\": \"href= drive.google.com/drive/folders/1sZi9sF_Rwv7eEvkXd4wOVlTnLJVwkVZr\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH136\", \"link\": \"href= https://drive.google.com/drive/folders/1sZi9sF_Rwv7eEvkXd4wOVlTnLJVwkVZr\"}]}]";
 		});
     get("classes/MATH/140", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH140\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfl9MS0kzQXFHY2hnY0VUVWFxR3ZUTkhkdnRPZnVBVnEwNlN0UUVCZ1puRmc\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH140\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfl9MS0kzQXFHY2hnY0VUVWFxR3ZUTkhkdnRPZnVBVnEwNlN0UUVCZ1puRmc\"}]}]";
 		});
         get("classes/MATH/140H", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH140H\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfjFVUkRfNjhWdlFKY2JoUVZpdmo1dHl6UXNIVjBMYk9nSUJnX0tvTFBMQ0k\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH140H\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfjFVUkRfNjhWdlFKY2JoUVZpdmo1dHl6UXNIVjBMYk9nSUJnX0tvTFBMQ0k\"}]}]";
 		});
     get("classes/MATH/141", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH141\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhflhoUE9DUVp5YmlBOHVvUjJSbk90bmpGOVJYdHZTYjZNRG9GMGtVMTZ5RmM\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH141\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhflhoUE9DUVp5YmlBOHVvUjJSbk90bmpGOVJYdHZTYjZNRG9GMGtVMTZ5RmM\"}]}]";
 		});
     get("classes/MATH/141H", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH141H\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfmV6dmR4Y2lZUEZYYXFieF9WVllSSkZMNlRicFRtYmZrS21ER2VXd1o0U1U\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH141H\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfmV6dmR4Y2lZUEZYYXFieF9WVllSSkZMNlRicFRtYmZrS21ER2VXd1o0U1U\"}]}]";
 		});
     get("classes/MATH/206", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
     get("classes/MATH/212", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH212\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfjAySmQzYWU0S1M4QjdjNlVSVXJjb0RYNUt6M1ItN0x5RVZDaUltRVJGZ1U\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH212\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfjAySmQzYWU0S1M4QjdjNlVSVXJjb0RYNUt6M1ItN0x5RVZDaUltRVJGZ1U\"}]}]";
 		});
     get("classes/MATH/213", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH213\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfnNoeHAtUkQxcWNJa2VyVFZJWTJscXhPMHhvOVB6RXVYdjJrTjB5S1BUS00\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH213\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfnNoeHAtUkQxcWNJa2VyVFZJWTJscXhPMHhvOVB6RXVYdjJrTjB5S1BUS00\"}]}]";
 		});
     get("classes/MATH/214", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH214\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfm8tRUxNTktVRnpDZWtGU3BGLUc0bFJQOERXNGRIY0dRTGxWZFhjOVRkUGc\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH214\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfm8tRUxNTktVRnpDZWtGU3BGLUc0bFJQOERXNGRIY0dRTGxWZFhjOVRkUGc\"}]}]";
 		});
     get("classes/MATH/240", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH240\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfmVta1FFR2Vka0ZuckpGWmtHSEQzcEN5NWtraEtVZkNkaG9TeTdoNll2dnM\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH240\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfmVta1FFR2Vka0ZuckpGWmtHSEQzcEN5NWtraEtVZkNkaG9TeTdoNll2dnM\"}]}]";
 		});
     get("classes/MATH/241", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH241\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfkxnVVBpRHdER3d2YVBwMXQtRVpZQ3MtbWFnLWxqTDdZcVNjclE5X0x1OHc\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH241\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfkxnVVBpRHdER3d2YVBwMXQtRVpZQ3MtbWFnLWxqTDdZcVNjclE5X0x1OHc\"}]}]";
 		});
     get("classes/MATH/241H", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH241H\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhflN1MmxkdVZzOUdNSHNVb0NFblhRenBhOURXamVTb2RPTk40UnFRS0ZhUlE\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH241H\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhflN1MmxkdVZzOUdNSHNVb0NFblhRenBhOURXamVTb2RPTk40UnFRS0ZhUlE\"}]}]";
 		});
     get("classes/MATH/246", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH246\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfm0wdXQtUXpra1FnRXFEa3Fta3VRQVpoRnNYR283Y3ZHVG1ESEF1VGdsQ00\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH246\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfm0wdXQtUXpra1FnRXFEa3Fta3VRQVpoRnNYR283Y3ZHVG1ESEF1VGdsQ00\"}]}]";
 		});
     get("classes/MATH/246H", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH246H\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfjI1Zmh5WDFHVllMU21scnRYeUxKaGFoZ1I2OEQ1SHZFSG1TZFM5MVpZOU0\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH246H\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfjI1Zmh5WDFHVllMU21scnRYeUxKaGFoZ1I2OEQ1SHZFSG1TZFM5MVpZOU0\"}]}]";
 		});
     get("classes/MATH/274", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH274\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfklHcWVEdG0tT2NOd1lhdGlHOGwtQnZXY3dCTGhoUl9BYmpETjJSeWVLX3c\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH274\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfklHcWVEdG0tT2NOd1lhdGlHOGwtQnZXY3dCTGhoUl9BYmpETjJSeWVLX3c\"}]}]";
 		});
     get("classes/MATH/310", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH310\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfmJySUJJVGZUUm1oRjhHdVdTU3U1VUlOMmQ0WVpnTjJCeGs0bV8waUxzbHM\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH310\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfmJySUJJVGZUUm1oRjhHdVdTU3U1VUlOMmQ0WVpnTjJCeGs0bV8waUxzbHM\"}]}]";
 		});
     get("classes/MATH/312", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH312\", \"link\": \"href= drive.google.com/drive/folders/10bDY1Ic222yptVmv_X2ewmvHBFyLfA4T\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH312\", \"link\": \"href= https://drive.google.com/drive/folders/10bDY1Ic222yptVmv_X2ewmvHBFyLfA4T\"}]}]";
 		});
     get("classes/MATH/314", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH314\", \"link\": \"href= drive.google.com/drive/folders/13gJ-XsE_T5f-G5s1D_czWsX1BtLB8is-\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH314\", \"link\": \"href= https://drive.google.com/drive/folders/13gJ-XsE_T5f-G5s1D_czWsX1BtLB8is-\"}]}]";
 		});
     get("classes/MATH/341", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH341\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfmNPa3h0Z3ZXOVJjajE1eXZlMTZvVHp5VHFFYnFQWUV0eTZNS0tTNVNqWkU\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH341\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfmNPa3h0Z3ZXOVJjajE1eXZlMTZvVHp5VHFFYnFQWUV0eTZNS0tTNVNqWkU\"}]}]";
 		});
     get("classes/MATH/386", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+      return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
       get("classes/MATH/400", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH400\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfnRsWGZmTXdPd0lnZG9vWTFBWllzNWdhanJXLVNGbDNPSTVtVWpERXpYLWs\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH400\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfnRsWGZmTXdPd0lnZG9vWTFBWllzNWdhanJXLVNGbDNPSTVtVWpERXpYLWs\"}]}]";
 		});
     get("classes/MATH/401", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH401\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfk9zam9yX3QtSDhNbDNqaVVwQ2sxSWJwWGozYkJHTE94WF9sOEMzUGdKMmc\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH401\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfk9zam9yX3QtSDhNbDNqaVVwQ2sxSWJwWGozYkJHTE94WF9sOEMzUGdKMmc\"}]}]";
 		});
     get("classes/MATH/402", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH402\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfjVkQTFpTXg0RW82VVBXY1RuSWgwZUhkWk5ROF8wdkNHYTZUWDRHeFp4ZWc\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH402\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfjVkQTFpTXg0RW82VVBXY1RuSWgwZUhkWk5ROF8wdkNHYTZUWDRHeFp4ZWc\"}]}]";
 		});
     get("classes/MATH/403", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH403\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfkVwSzNxVGdBV21WRlpkTGNzVk9ZSFFMbUFCckJGX195MVlPMC1ZNUpONFk\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH403\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfkVwSzNxVGdBV21WRlpkTGNzVk9ZSFFMbUFCckJGX195MVlPMC1ZNUpONFk\"}]}]";
 		});
     get("classes/MATH/404", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH404\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhflgzNDNaeDJOek40TVpSOFBUaXlXSXVGTWlnUU9hWDFkdTRJNjkwT3FmbGs\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH404\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhflgzNDNaeDJOek40TVpSOFBUaXlXSXVGTWlnUU9hWDFkdTRJNjkwT3FmbGs\"}]}]";
 		});
     get("classes/MATH/405", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH405\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfk5GRFVQX3VFeml0dmp1ZnptNlNRbWFGYnVkbTdmYnNXbVFnU2RyOVp6Vm8\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH405\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfk5GRFVQX3VFeml0dmp1ZnptNlNRbWFGYnVkbTdmYnNXbVFnU2RyOVp6Vm8\"}]}]";
 		});
     get("classes/MATH/406", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH406\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfjVwN21qV2tUZmFya21tdUQzeGRzSndrQVgzbTRLc05ZTWsyRUxra0JiU2M\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH406\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfjVwN21qV2tUZmFya21tdUQzeGRzSndrQVgzbTRLc05ZTWsyRUxra0JiU2M\"}]}]";
 		});
     get("classes/MATH/410", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH410\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhflBHMmxWNW1rcF9DTWVacnAtdTVjMnkwTVRRTWE0NFdxaURBdm9xX0dSRG8\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH410\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhflBHMmxWNW1rcF9DTWVacnAtdTVjMnkwTVRRTWE0NFdxaURBdm9xX0dSRG8\"}]}]";
 		});
     get("classes/MATH/411", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH411\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfmhvTmFIR3dTaG1VMlF1b21RMjBjQ09PMFFucXFZSG1YTnppTUhYckZqcnM\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH411\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfmhvTmFIR3dTaG1VMlF1b21RMjBjQ09PMFFucXFZSG1YTnppTUhYckZqcnM\"}]}]";
 		});
     get("classes/MATH/424", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH424\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfmtNVFpKS3Jha2FjUjZTM3BhbVVnM0h4cF9HWWE1SGFkc3N6MlhlaURYSFk\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH424\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfmtNVFpKS3Jha2FjUjZTM3BhbVVnM0h4cF9HWWE1SGFkc3N6MlhlaURYSFk\"}]}]";
 		});
     get("classes/MATH/430", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH424\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfkFheW42YlM1SHJlVVVVTDQ0YWFvSVZ2dFpUc2pRTXc4R25uX0tXLVdfRFE\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH424\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfkFheW42YlM1SHJlVVVVTDQ0YWFvSVZ2dFpUc2pRTXc4R25uX0tXLVdfRFE\"}]}]";
 		});
     get("classes/MATH/437", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
     get("classes/MATH/446", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
     get("classes/MATH/456", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
     get("classes/MATH/461", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
        get("classes/MATH/462", (req, res) -> {
 			res.type("application/json");
-		return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+		return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
        get("classes/MATH/463", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
        get("classes/MATH/464", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
        get("classes/MATH/470", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
        get("classes/MATH/475", (req, res) -> {
 			res.type("application/json");
-		return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+		return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   	});
        get("classes/MATH/489", (req, res) -> {
 			res.type("application/json");
-			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
+			return "[{\"Quizzes\": [{\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams1CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/spring2018/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams2CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/fall2017/cmsc330/#exams\"}, {\"quiz_name\": \"QuizzesExams\",\"documentname\": \"QuizzesAndExams3CMSC330\", \"link\": \"href= https://www.cs.umd.edu/class/summer2017/cmsc330/tests.shtml\"}]}]";			
   });
     /*************************************************
     **************************************************/
@@ -477,67 +477,67 @@ options("/*",
 		});
        get("classes/STAT/100", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH100\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfjdKNFZyeEZYM2V3OE96SHZ2VnBzNEl2X2VESFdGdE1yczVWTVItTjNMcGc\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH100\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfjdKNFZyeEZYM2V3OE96SHZ2VnBzNEl2X2VESFdGdE1yczVWTVItTjNMcGc\"}]}]";
 		});
        get("classes/STAT/400", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH400\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfjV4UjBocEwwRzB5VjBlMU11Wl9lZ0ZoOVlHQmZweTNINlpDVHVPaUl4bnM\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH400\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfjV4UjBocEwwRzB5VjBlMU11Wl9lZ0ZoOVlHQmZweTNINlpDVHVPaUl4bnM\"}]}]";
 		});
        get("classes/STAT/401", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH401\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfjc3anJrNm9vZ2t4SkFLT3ZFa21KQmw3cG1jeEJJYW9jUmNuZy1idU5Hb3c\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH401\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfjc3anJrNm9vZ2t4SkFLT3ZFa21KQmw3cG1jeEJJYW9jUmNuZy1idU5Hb3c\"}]}]";
 		});
            get("classes/STAT/405", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH405\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfk93X012a1dlX01oWG92VFIzZHhkWlhkbGZ5d3hIY2w5VVJjQmo3VDRaOUk\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH405\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfk93X012a1dlX01oWG92VFIzZHhkWlhkbGZ5d3hIY2w5VVJjQmo3VDRaOUk\"}]}]";
 		});
        get("classes/STAT/410", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH410\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfmZYVW9YX1plLTY2Y1E2Z19OaGtsUmNfSFdwalU3TWxucW9ILURLSnZLN1U\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH410\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfmZYVW9YX1plLTY2Y1E2Z19OaGtsUmNfSFdwalU3TWxucW9ILURLSnZLN1U\"}]}]";
 		});
        get("classes/STAT/420", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH420\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfmxLRGN6RnVFTHlqQi1BeVFWUjJOa3doelY5cVk0SWJ4bmlfRTdkUUUwT3c\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH420\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfmxLRGN6RnVFTHlqQi1BeVFWUjJOa3doelY5cVk0SWJ4bmlfRTdkUUUwT3c\"}]}]";
 		});
        get("classes/STAT/430", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH430\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfkFheW42YlM1SHJlVVVVTDQ0YWFvSVZ2dFpUc2pRTXc4R25uX0tXLVdfRFE\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH430\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfkFheW42YlM1SHJlVVVVTDQ0YWFvSVZ2dFpUc2pRTXc4R25uX0tXLVdfRFE\"}]}]";
 		});
        get("classes/STAT/440", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH440\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfjRKSmNXMFhyY1dFNkttcUh3NERMaW9BakVWWVRRdndRb1hFVzFkdTdrcWs\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH440\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfjRKSmNXMFhyY1dFNkttcUh3NERMaW9BakVWWVRRdndRb1hFVzFkdTdrcWs\"}]}]";
 		});
        get("classes/STAT/464", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH464\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfnF2c2pUUHdTWFdKRm9xSXVzckNTZUx0ZDVLc1MxZ1FLRTBsWEItVkQ5QVk\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH464\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfnF2c2pUUHdTWFdKRm9xSXVzckNTZUx0ZDVLc1MxZ1FLRTBsWEItVkQ5QVk\"}]}]";
 		});
        get("classes/STAT/470", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH470\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfmJrUW1xMGNJbnUwXzU4cjhGVlNlQ1BFZnVmeUZNdmpCM08wUFBIdTFUUVE\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH470\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfmJrUW1xMGNJbnUwXzU4cjhGVlNlQ1BFZnVmeUZNdmpCM08wUFBIdTFUUVE\"}]}]";
 		});
           get("classes/STAT/600", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH600\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfjZnZy1OUzExeE5BUUVvN3BMVDFUMk9Ncngya3N4LUpPZjZvS0o3UTNMQ1k\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH600\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfjZnZy1OUzExeE5BUUVvN3BMVDFUMk9Ncngya3N4LUpPZjZvS0o3UTNMQ1k\"}]}]";
 		});
        get("classes/STAT/601", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH601\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfjVhZEJKbXVfRlVCWXhpT200Q1hOQ3E3aWxEcFlwRnNMdVNxRkk3ZUlmZ2c\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH601\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfjVhZEJKbXVfRlVCWXhpT200Q1hOQ3E3aWxEcFlwRnNMdVNxRkk3ZUlmZ2c\"}]}]";
 		});
        get("classes/STAT/650", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH650\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhflR0Z2J1c04xOU9XMmRUQktZMktoa3ItZEVjQWc5Q0xrRHpGMHVaeTJud28\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH650\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhflR0Z2J1c04xOU9XMmRUQktZMktoa3ItZEVjQWc5Q0xrRHpGMHVaeTJud28\"}]}]";
 		});
        get("classes/STAT/701", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH701\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfjhUUF9LQUZMWEt0MzVycm95bFJXMkdhLS0tUFhzbUJGZ2s3R1d3djlVbzg\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH701\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfjhUUF9LQUZMWEt0MzVycm95bFJXMkdhLS0tUFhzbUJGZ2s3R1d3djlVbzg\"}]}]";
 		});
        get("classes/STAT/740", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH740\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfmhRaHJtaFkwZ1QtaEVEQ0FvM3R1S0djYnc4Q1RtcFdwbW9qbnF5ZUEtRjA\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH740\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfmhRaHJtaFkwZ1QtaEVEQ0FvM3R1S0djYnc4Q1RtcFdwbW9qbnF5ZUEtRjA\"}]}]";
 		});
        get("classes/STAT/741", (req, res) -> {
 			res.type("application/json");
-      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH741\", \"link\": \"href= drive.google.com/drive/folders/0B9Iw6R7OblHhfmhRaHJtaFkwZ1QtaEVEQ0FvM3R1S0djYnc4Q1RtcFdwbW9qbnF5ZUEtRjA\"}]}]";
+      return "[{\"Exams\": [{\"quiz_name\": \"PastFinals\",\"documentname\": \"PastFinalsMATH741\", \"link\": \"href= https://drive.google.com/drive/folders/0B9Iw6R7OblHhfmhRaHJtaFkwZ1QtaEVEQ0FvM3R1S0djYnc4Q1RtcFdwbW9qbnF5ZUEtRjA\"}]}]";
 		});
 
 	}
