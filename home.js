@@ -25,7 +25,7 @@ function search() {
 }
 
 function selectClass(event){
-	const linkBase = "http://jhacks2020.glitch.me/classes/";
+	const linkBase = "https://jhacks2020.glitch.me/classes/";
 	const classRegExp = /^([A-Z]{4})([0-9]{3}[A-Z]?)$/;
 	link = "";
 	match = event.target.innerHTML.match(classRegExp);
