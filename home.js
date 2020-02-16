@@ -3,12 +3,12 @@ function search() {
 	var number = document.getElementById("number").value;
 	const coursesAPI = "https://api.umd.io/v0/courses?";
 	const ul = document.getElementById("class_list");
-	str = "";
+	var str = "";
 
 	if (number==="") {
 		fetch(coursesAPI + "dept_id=" + input).then((response)=> {
 			return response.json();
-		}).then((myJson) => { for (i = 0; i < myJson.length; i++) {
+		}).then((myJson) => { for (var i = 0; i < myJson.length; i++) {
 						str += "<li>"	+ myJson[i].course_id + "</li>";
 					}
 					ul.innerHTML = str;
@@ -27,12 +27,31 @@ function search() {
 function selectClass(event){
 	const linkBase = "https://jhacks2020.glitch.me/classes/";
 	const classRegExp = /^([A-Z]{4})([0-9]{3}[A-Z]?)$/;
-	link = "";
-	match = event.target.innerHTML.match(classRegExp);
-	link = linkBase + match[1] + "/" + match[2];
+	var link = "";
+	var match = event.target.innerHTML.match(classRegExp);
+	var link = linkBase + match[1] + "/" + match[2];
+  console.log(link);
 	fetch(link).then((response)=> {
 		return response.json();
 	}).then((myJson) => {
-			console.log(myJson);
+
+			var curatedJson = myJson;
+
+			var display = document.getElementById("info");
+			var str = "";
+			str += "<h2>" + event.target.innerHTML + " : ";
+			out = fetch("https://api.umd.io/v0/courses?course_id=" +
+						event.target.innerHTML).then((response)=> {
+				return response.json();
+			}).then((myJson) => {
+					str += myJson[0].name + "</h2>";
+
+					for (key in curatedJson[0]) {
+						str += "<p>" + key + "</p>";
+					}
+
+					display.innerHTML = str;
+			});
+
 	});
 }
