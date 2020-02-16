@@ -12,9 +12,10 @@ function search() {
 			return response.json();
 		}).then((myJson) => { for (i = 0; i < myJson.length; i++) {
 						match = myJson[i].course_id.match(classRegExp);
+						console.log(match);
 						link = linkBase + match[1] + "/" + match[2];
 
-						str += "<li><a href=link role=\"button\" onclick=\"alert(\"clicked\");\">"
+						str += "<li><a href=" +link +" role=\"button\" onclick=\"alert(\"clicked\");\">"
 								+ myJson[i].course_id + "</a></li>";
 					}
 					ul.innerHTML = str;
@@ -27,7 +28,7 @@ function search() {
 					match = myJson[0].course_id.match(classRegExp);
 					link = linkBase + match[1] + "/" + match[2];
 
-					str += "<li><a class=\"#\" href=link role=\"button\">"
+					str += "<li><a class=\"#\" href="+link+ " role=\"button\">"
 										+ myJson[0].course_id + "</a></li>";
 					ul.innerHTML = str;
 		});
