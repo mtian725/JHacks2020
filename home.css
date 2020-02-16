@@ -5,3 +5,11 @@ li:hover {
 h2 {
   text-decoration: underline;
 }
+
+h1 {
+  padding: 1rem;
+}
+
+.class_list {
+  padding-left: 0;
+}
