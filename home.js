@@ -50,9 +50,9 @@ function selectClass(event){
 
 					for (key in curatedJson) {
 						for (ke in curatedJson[key]) {
-							str += "<h2>" + ke + "</h2>";
+							str += "<h3>" + ke + "</h3>";
 							for (k in curatedJson[key][ke]) {
-								str += "<p>"+k+"</p>";
+								str += "<p><a "+curatedJson[key][ke][k]["link"]+">"+curatedJson[key][ke][k]["quiz_name"]+"</a></p>";
 							}
 						}
 					}
