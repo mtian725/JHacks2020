@@ -51,9 +51,6 @@ function selectClass(event){
 					for (key in curatedJson) {
 						for (ke in curatedJson[key]) {
 							str += "<h2>" + ke + "</h2>";
-							for (k in curatedJson[key][ke]) {
-								str += "<p>"+k+"</p>";
-							}
 						}
 					}
 
