@@ -4,7 +4,13 @@ function search() {
 	const ul = document.getElementById("class_list");
 	var str = "";
 
-	fetch(coursesAPI + "dept_id=" + input).then((response)=> { response.json(); });
-}
+	fetch(coursesAPI + "dept_id=" + input).then((response)=> { 
+		return response.json();
+	}).then((myJson) => { for (i = 0; i < myJson.length; i++) {
+					str += "<li>" + myJson[i].course_id + "</li>";
+				}
+				ul.innerHTML = str;
+	});
+}	
 
 
