@@ -46,8 +46,8 @@ function selectClass(event){
 			}).then((myJson) => {
 					str += myJson[0].name + "</h2>";
 
-					for (key in curatedJson[0]) {
-						str += "<p>" + key + "</p>";
+					for (var i = 0; i < curatedJson.length; i++){
+						str += "<p>" + curatedJson[i].key + "</p>";
 					}
 
 					display.innerHTML = str;
